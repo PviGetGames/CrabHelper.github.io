@@ -1,0 +1,74 @@
+<html>
+  <body>
+    <pre>
+&lt;html>
+  &lt;head>
+     &lt;style>
+            div.a {
+               font-size: 100px;
+               font-family: URW Chancery L, cursive;
+               margin: 0;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+             }
+        &lt;/style>
+  &lt;/head>
+&lt;body>
+&lt;div class="a">
+&lt;p>Wanna see somethin cool?&lt;/p>
+
+&lt;input type="Image" src="../images/globespin.gif" onclick="getLocation(); play()">
+
+&lt;p id="demo">&lt;/p>
+
+&lt;script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "&lt;br>Longitude: " + position.coords.longitude;
+}
+
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+}
+  function troll() {
+	      var img = document.createElement('img');
+        img.src = '../images/trollface.png';
+      	document.getElementById('body').appendChild(img);
+}
+    &lt;/script>
+    &lt;audio id="audio" src="../audio/Troll.mp3">&lt;/audio>
+    &lt;/div>
+&lt;/body>
+&lt;/html>
+    </pre>
+  </body>
+</html>
