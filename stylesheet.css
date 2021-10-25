@@ -1,0 +1,12 @@
+body {
+  background-color: #7efaff;
+}
+.a {
+  font-size: 20px;
+  font-family: URW Chancery L, cursive;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
