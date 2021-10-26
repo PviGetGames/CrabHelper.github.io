@@ -1,0 +1,586 @@
+Base Recipes
+ 
+Name: Template
+Ingredients:
+ 
+Cooktime:
+Distills:
+Barrel:
+Age:
+Alcohol:
+Effects:
+
+
+Name: Wheat beer
+Ingredients:
+ 3 wheat
+Cooktime: 8
+Distills: 0
+Barrel: birch
+Age: 2
+Alcohol: 5
+
+Name: Fine beer
+Ingredients:
+ 6 wheat
+Cooktime:8
+Distills: 0
+Barrel: any
+Age: 3
+Alcohol: 6
+
+Name: Dark beer
+Ingredients:
+ 6 wheat
+Cooktime: 8
+Distills: 0
+Barrel: Acacia
+Age: 8
+Alcohol: 7
+
+Name: Red Wine
+Ingredients:
+5 Sweet berries
+Cooktime: 5
+Distills: 0
+Barrel: any
+Age: 20
+Alcohol: 8
+
+Name: Golden mead
+Ingredients:
+ 6 sugar cane
+Cooktime: 3
+Distills: 0
+Barrel: Birch
+Age: 4
+Alcohol: 9
+
+Name: Apple mead
+Ingredients:
+ 6 sugar cane
+2 apple
+Cooktime: 4
+Distills: 0
+Barrel: Spruce
+Age: 4
+Alcohol: 11
+
+Name: Cidre
+Ingredients:
+ 14 apples
+Cooktime: 7
+Distills: 0
+Barrel: Jungle
+Age: 3
+Alcohol: 7
+
+Name: Apple Liquor
+Ingredients:
+ 12 apples
+Cooktime: 16
+Distills: 3
+Barrel: Acacia
+Age: 6
+Alcohol: 14
+
+Name: Scotch Whiskey
+Ingredients:
+ 10 wheat
+Cooktime: 10
+Distills: 2
+Barrel: 50
+Age: 18
+Alcohol: 26
+
+Name: Golden Rum
+Ingredients:
+18 sugar cane
+Cooktime: 6
+Distills: 2
+Barrel: Oak
+Age: 14
+Alcohol: 30
+Effects:
+Fire Resistance
+Poison
+
+Name: Vodka
+Ingredients: Russian vodka
+ 10 potato
+Cooktime: 15
+Distills: 3
+Barrel: none
+Age: 0
+Alcohol: 20
+Effects:
+Weakness
+Poison
+
+Name: Glowing mushroom vodka
+Ingredients:
+ 10 potatoes
+3 red mushroom
+3 brown mushroom
+Cooktime: 18
+Distills: 5
+Barrel: none
+Age: 0
+Alcohol: 18
+Effects:
+Weakness
+Confusion
+Night vision
+Blindness
+Slow
+
+Name: Old tom gin
+Ingredients:
+ 9 wheat
+6 blue flowers
+1 apple
+Cooktime: 6
+Distills: 2
+Barrel: none
+Age: 0
+Alcohol: 20
+Effects:
+none
+
+Name: tequila anejo
+Ingredients:
+ 8 cactus
+Cooktime: 15
+Distills: 2
+Barrel: birch
+Age: 12
+Alcohol: 20
+Effects:
+none
+
+Name: strong absinthe
+Ingredients:
+ 15 grass
+Cooktime: 3
+Distills: 6
+Barrel: 0
+Age: none
+Alcohol: 42
+Effects:
+poison
+
+Name: green absinthe
+Ingredients:
+ 17 grass
+2 poisonous potato
+Cooktime: 5
+Distills: 6
+Barrel: none
+Age: 0
+Alcohol:  46
+Effects:
+Poison
+Harm
+Night vision
+
+Name: potato soup
+Ingredients:
+ 5 potato
+3 grass
+Cooktime: 3
+Distills: 0
+Barrel: none
+Age: 0
+Alcohol: 0
+Effects:
+heal
+
+Name: strong coffee
+Ingredients:
+ 12 cocoa beans
+2 milk
+Cooktime: 2
+Distills: 0
+Barrel: 0
+Age: 0
+Alcohol: 0
+Effects:
+Regeneration
+Speed
+
+Name: advocaat
+Ingredients:
+ 5 egg
+2 sugar
+1 milk
+Cooktime: 2
+Distills: 0
+Barrel: any
+Age: 3
+Alcohol: 10
+Effects:
+None
+
+
+Book Recipes
+
+Name: Baileys
+Ingredients:
+10 wheat
+2 milk
+Cooktime: 11
+Distills: 2
+Barrel: none
+Age: 0
+Alcohol: 8
+Effects:
+None
+
+Name: Sake
+Ingredients:
+15 wheat
+1 milk
+Cooktime: 4
+Distills: 0
+Barrel: birch
+Age: 14
+Alcohol: 10
+Effects:
+none
+
+Name: Tea
+Ingredients:
+4 vines
+1 milk
+Cooktime: 5
+Distills: 0
+Barrel: no
+Age: 0
+Alcohol: 0
+Effects:
+Jump boost
+
+Name: Crimson wine
+Ingredients:
+ 5 berries
+2 nether wart
+1 spider eye
+Cooktime: 8
+Distills: 0
+Barrel: Crimson
+Age: 3
+Alcohol: 20
+Effects:
+Bad luck
+levitation
+
+Name: Jenever
+Ingredients:
+ 18 wheat
+10 sugar cane
+Cooktime: 5
+Distills: 5
+Barrel: no
+Age: 0
+Alcohol: 70
+
+Name: hot chocolate
+Ingredients:
+ 6 cocoa beans
+3 sugar
+1 milk
+Cooktime: 2
+Effects: glowing
+Name: brandy/firewater
+Ingredients:
+ 9 berries
+5 seeds
+Cooktime: 5
+Distills: 3
+Alcohol: 25
+
+Name: punsch
+Ingredients:
+ 1 rum
+1 brandy
+3 tea
+2 sugar
+1 beetroot
+Cooktime: 2
+Barrel: jungle
+Age: 1
+Alcohol: 30
+Effects:
+Absorption 5
+
+Name: Tom and Jerry
+Ingredients:
+ Eggnog
+Rum
+Brandy
+Cooktime: ~7
+Alcohol: 15
+
+Name: blazing whiskey
+Ingredients:
+ 10 wheat
+2 blaze powder
+Cooktime: 12
+Distills: 2
+Barrel: spruce
+Age: 17
+Alcohol: 25
+
+Name: Shimmering golden vodka
+Ingredients:
+ 11 potatoes
+6 golden nuggets
+1 snowball
+Cooktime: 19
+Distills: 3
+Alcohol: 16
+Effects:
+weakness
+
+Name: chimean slushie
+Ingredients:
+ 8 snowballs
+4 beetroot
+2 milk
+Cooktime: 5s
+Distills: 4
+Barrel: oak
+Age: 14
+Alcohol: 32
+Effects:
+Bad luck
+
+
+Knights series
+
+Name: knights strength
+Ingredients:
+ 6 sugar
+4 iron ingots
+2 nether wart
+1 blaze powder
+Cooktime: 5
+Distills: 4
+Barrel: oak
+Age: 14
+Alcohol: 80
+Effects:
+Haste 2
+
+Name: knights defence
+Ingredients:
+ 9 iron ingots
+6 wheat
+3 nether wart
+1 blaze powder
+Cooktime: 5
+Distills: 4
+Barrel: spruce
+Age: 14
+Alcohol: 80
+Effects:
+Resistance
+slowness
+
+Name: knights speed
+Ingredients:
+ 5 berries
+3 sugar
+1 blaze powder
+1 iron ingot
+1 nether wart
+Cooktime: 5
+Distills: 4
+Barrel: oak
+Age: 14
+Alcohol: 100
+Effects:
+speed
+
+Name: knights love
+Ingredients:
+ 10 berries
+5 sugar
+3 nether wart
+1 blaze powder
+Cooktime: 5
+Barrel: Jungle
+Age: 74
+Alcohol: 45
+Effects:
+Regeneration
+
+Name: Fermented Tea
+Ingredients:
+ 6 vines
+1 glowstone dust
+1 beetroot
+Cooktime: 5
+Distills: unknown
+Alcohol: 15
+
+Name: Forrest berry tea
+Ingredients:
+ 6 vines
+3 berries
+2 melon slices
+Cooktime: 5
+Alcohol: none
+Effects:
+Dolphins grace
+Fire resistance
+weakness
+
+Name: Decay absinthe
+Ingredients:
+17 grass
+2 poison potato
+1 spider eye
+Cooktime: 5
+Distills: 12
+Alcohol: 80
+Effects:
+wither
+
+Name: Essential oils
+Ingredients:
+5 pumpkin seeds
+5 oak saplings
+3 grass
+2 vines
+Cooktime: 15
+Distills: 5
+Barrel: Birch
+Age: 25
+Alcohol: 60
+
+Name: Ender beer
+Ingredients:
+6 wheat
+1 ender pearl
+Cooktime: 6
+Barrel: warped wood
+Age: 40
+Alcohol: unknown
+Effects:
+glowing
+
+Name: Chocolate Cinnamon Tea
+Ingredients:
+4 cocoa beans
+4 sticks
+4 grass
+Cooktime: 5
+Distills: 1
+Effects:
+speed
+
+Name: Acai
+Ingredients:
+6 berries
+2 sugar
+Cooktime: 2
+Effects:
+slowness
+
+Name: Animus Ordis
+Ingredients:
+1 spruce sapling
+Cooktime: 2
+Alcohol: 8 bars (80%?)
+Effects:
+Blindness
+Poison
+Absorption
+resistance
+
+Name: Sparkling Water
+Ingredients:
+1 snow block
+3 snowballs
+3 melon slices
+3 cactus
+Cooktime: 2
+Alcohol: -10
+Effects:
+Removes drunkenness
+
+Name: Bee’s Knees
+Ingredients:
+2 snowballs
+1 melon slice
+2 Gin Bottles
+2 Honey Bottles
+Cooktime: 4
+Alcohol: 32
+Effects:
+blindness
+poison
+
+Name: Strong Iced Coffee
+Ingredients:
+2 Milk Buckets
+12 cookies
+3 snowballs
+Cooktime: 2
+Alcohol: none
+Effects:
+Regen
+haste
+
+Name: Sweet Tea
+Ingredients:
+8 sugar
+5 Birch leaves
+Cooktime: 5
+Effects:
+speed
+
+Name: Coco Cola
+Ingredients:
+ 12 sugar
+2 sugar cane
+2 Cocoa beans
+Cooktime: 2
+
+Name: Welpish Tears
+Ingredients:
+1 ghast tear
+5 diamonds
+5 gold ingots
+4 twisting vines
+1 nether wart block
+11 sweet berries
+Cooktime: 4
+Barrel: Birch
+Age: 11
+Alcohol: -30
+Effects:
+Poison
+hunger
+
+Name: Unknown until brewed
+Ingredients:
+2 diamonds
+4 gold nuggets
+3 bonemeal
+1 tropical fish
+1 nautilus shell
+Cooktime: 6
+Distills: 1
+Barrel: Spruce
+Age: 60
+Alcohol: unknown
+Effects:
+Luck 2 - 5 minutes
+
+Name: Chocolate Coffee
+Ingredients:
+12 Cocoa beans
+2 Milk buckets
+Cooktime: 10

@@ -1,0 +1,84 @@
+<html>
+<head>
+<link rel="stylesheet" href="assets/stylesheet.css">
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</head>
+<body>
+<div class="position">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Looking for a brew?">
+<!-- searchable terms: wheat, sweet berry, sweet berries, apple, sugar canes, potato, red mushrooms, brown mushrooms, blue orchids, cactus, cacti, grass, poisonous potatos, cocoa beans, milk, eggs, sugars, vines, nether warts, spider eyes, seeds, beetroots, rums, brandy, brandies, blaze powders, golden nuggets, snowballs, iron ingots, glowstone dusts, melon slices, pumpkin seeds, oak saplings, ender pearls, sticks, spruce saplings, snow blocks, honey bottles, gins, cookies, birch leaves, ghast tears, diamonds, gold ingots, twisted vines, nether wart blocks, bone meal, bonemeal, tropical fish, nautilus shells!-->
+<ul id="myUL">
+  <li><a href="brews/others/information.html">Information<div class="a">items</div></a></li>
+  <li><a href="brews/alcohol/wheatbeer.html">Wheat Beer<div class="a">3 wheat</div></a></li>
+  <li><a href="brews/alcohol/finebeer.html">Fine Beer<div class="a">6 wheat</div></a></li>
+  <li><a href="brews/alcohol/darkbeer.html">Dark Beer<div class="a">6 wheat</div></a></li>
+  <li><a href="brews/alcohol/redwine.html">Red Wine<div class="a">5 sweet berry, 5 sweet berries</div></a></li>
+  <li><a href="brews/alcohol/goldenmead.html">Golden Mead<div class="a">6 sugar canes</div></a></li>
+  <li><a href="brews/alcohol/applemead.html">Apple Mead<div class="a">6 sugar canes, 2 apples</div></a></li>
+  <li><a href="brews/alcohol/cidre.html">Cidre<div class="a">14 apples</div></a></li>
+  <li><a href="brews/alcohol/appleliquor.html">Apple Liquor<div class="a">12 apples</div></a></li>
+  <li><a href="brews/alcohol/scotchwhiskey.html">Scotch Whiskey<div class="a">10 wheat</div></a></li>
+  <li><a href="brews/alcohol/goldenrum.html">Golden Rum<div class="a">18 sugar canes</div></a></li>
+  <li><a href="brews/alcohol/russianvodka.html">Russian Vodka<div class="a">10 potatos</div></a></li>
+  <li><a href="brews/alcohol/glowingmushroomvodka.html">Glowing Mushroom Vodka<div class="a">10 potatos, 3 red mushrooms, 3 brown mushrooms</div></a></li>
+  <li><a href="brews/alcohol/oldtomgin.html">Old Tom Gin<div class="a">9 wheat, 6 blue orchids, 1 apples</div></a></li>
+  <li><a href="brews/alcohol/tequilaanejo.html">Tequila Anejo<div class="a">8 cacti, 8 cactus</div></a></li>
+  <li><a href="brews/alcohol/strongabsinthe.html">Strong Absinthe<div class="a">15 grass</div></a></li>
+  <li><a href="brews/alcohol/greenabsinthe.html">Green Absinthe<div class="a">17 grass, 2 poisonous potatos</div></a></li>
+  <li><a href="brews/others/potatosoup.html">Potato Soup<div class="a">5 potatos, 3 grass</div></a></li>
+  <li><a href="brews/others/strongcoffee.html">Strong Coffee<div class="a">12 cocoa beans, 2 milk</div></a></li>
+  <li><a href="brews/alcohol.advocaat.html">Advocaat<div class="a">5 eggs, 2 sugars, 1 milk</div></a></li>
+  <li><a href="brews/alcohol/baileys.html">Baileys<div class="a">10 wheat, 2 milk</div></a></li>
+  <li><a href="brews/alcohol/sake.html">Sake<div class="a">15 wheat, 1 milk</div></a></li>
+  <li><a href="brews/tea/tea.html">Tea<div class="a">4 vines, 1 milk</div></a></li>
+  <li><a href="brews/alcohol/crimsonwine.html">Crimson Wine<div class="a">5 sweet berries, 2 nether warts, 1 spider eyes</div></a></li>
+  <li><a href="brews/others/hotchocolate.html">Hot Chocolate<div class="a">6 cocoa beans, 3 sugars, 1 milk</div></a></li>
+  <li><a href="brews/alcohol/firewater.html">Brandy/Firewater<div class="a">9 sweet berries, 9 sweet berry, 5 seeds</div></a></li>
+  <li><a href="brews/alcohol/jenever.html">Jenever<div class="a">18 wheat, 10 sugar canes</div></a></li>
+  <li><a href="brews/alcohol/punsch.html">Punsch<div class="a">1 rums, 1 brandy, 1 brandies 3 teas, 2 sugars, 1 beetroots</div></a></li>
+  <li><a href="brews/alcohol/tomandjerry.html">Tom and Jerry<div class="a">1 eggnogs, 1 rums, 1 brandy, 1 brandies</div></a></li>
+  <li><a href="brews/alcohol/blazingwhiskey.html">Blazing Whiskey<div class="a">10 wheat, 2 blaze powders</div></a></li>
+  <li><a href="brews/alcohol/shimmeringgoldenvodka.html">Shimmering Golden Vodka<div class="a">11 potatos, 6 golden nuggets, 1 snowballs</div></a></li>
+  <li><a href="brews/alcohol/chimeanslushie.html">Chimean Slushie<div class="a">8 snowballs, 4 beetroot, 2 milk</div></a></li>
+  <li><a href="brews/alcohol/knightsstrength.html">Knight's Strength<div class="a">6 sugars, 4 iron ingots, 2 nether warts, 1 blaze powders</div></a></li>
+  <li><a href="brews/alcohol/knightsdefence.html">Knight's Defence<div class="a">9 iron ingots, 6 wheat, 3 nether warts, 1 blaze powder</div></a></li>
+  <li><a href="brews/alcohol/knightsspeed.html">Knight's Speed<div class="a">5 sweet berries, 5 sweet berry, 3 sugars, 1 blaze powders, 1 iron ingots, 1 nether warts</div></a></li>
+  <li><a href="brews/alcohol/knightslove.html">Knight's Love<div class="a">10 sweet berries, 10 sweet berry, 5 sugars, 3 nether warts, 1 blaze powders</div></a></li>
+  <li><a href="brews/alohol/fermentedtea.html">Fermented Tea<div class="a">6 vines, 1 glowstone dusts, 1 beetroos</div></a></li>
+  <li><a href="brews/tea/forestberrytea.html">Forrest Berry Tea<div class="a">6 vines, 2 sweet berries, 2 sweet berry, 2 melon slices</div></a></li>
+  <li><a href="brews/alcohol/decayabsinthe.html">Decay Absinthe<div class="a">17 grass, 2 poisonous potatos, 1 spider eyes</div></a></li>
+  <li><a href="brews/alcohol/essentialoils.html">Essential Oils<div class="a">5 pumpkin seeds, 5 oak saplings, 3 grass, 2 vines</div></a></li>
+  <li><a href="brews/alcohol/enderbeer.html">Ender Beer<div class="a">6 wheat, 1 ender pearls</div></a></li>
+  <li><a href="brews/tea/chocolatecinnamontea.html">Chocolate Cinnamon Tea<div class="a">4 cocoa beans, 4 sticks, 4 grass</div></a></li>
+  <li><a href="brews/alcohol/animusordis.html">Animus Ordis<div class="a">1 spruce saplings</div></a></li>
+  <li><a href="brews/others/acai.html">Acai<div class="a">6 sweet berries, 6 sweet berry, 2 sugars</div></a></li>
+  <li><a href="brews/others/sparklingwater.html">Sparkling Water<div class="a">1 snow blocks, 3 snowballs, 3 melon slices, 3 cacus, 3 cacti</div></a></li>
+  <li><a href="brews/alcohol/beesknees.html">Bee's Knees<div class="a">2 snowballs, 2 gins, 2 honey bottles, 1 melon slices</div></a></li>
+  <li><a href="brews/others/strongicedcoffee.html">Strong Iced Coffee<div class="a">2 milks, 12 cookies, 3 snowballs</div></a></li>
+  <li><a href="brews/tea/sweettea.html">Sweet Tea<div class="a">8 sugars, 5 birch leaves</div></a></li>
+  <li><a href="brews/others/cococola.html">Coco Cola<div class="a">12 sugars, 2 sugar canes, 2 cocoa beans</div></a></li>
+  <li><a href="brews/alcohol/welpishtears.html">Welpish Tears<div class="a">1 ghast tears, 5 diamonds, 5 gold ingots, 4 twisted vines, 1 nether wart blocks, 11 sweet berries, 11 sweet berry</div></a></li>
+  <li><a href="brews/others/unknown1.html">Unknown<div class="a">2 diamonds, 4 gold nuggets, 3 bone meal, 3 bonemeal, 1 tropical fish, 1 nautilus shells</div></a></li>
+  <li><a href="brews/others/chocolatecoffee.html">Chocolate Coffee<div class="a">12 cocoa beans, 2 milks</div></a></li>
+  <!-- list template: <li><a href="brews/blank.html">blank<div class="a">insert</div></a></li>!-->
+</ul>
+</div>
+</body>
+</html>
